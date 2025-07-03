@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Check</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="card">
+        <div id="search">
+            <input type="text" placeholder="enter city name" spellcheck="false">
+            <i class="ri-search-line"></i>
+        </div>
+        <div id="error">
+            <p>Invalid City Name</p>
+        </div>
+        <div id="weather">
+            <img src="./weather-app-img/images/clouds.png" class="weather-icon">
+            <h1 class="temp">22C</h1>
+            <h2 class="city">New York</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="weather-app-img/images/humidity.png" alt="">
+                    <div>
+                        <p class="humidty">50%</p>
+                        <p>Humidty</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="weather-app-img/images/wind.png" alt="">
+                    <div>
+                        <p class="wind">15 km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
